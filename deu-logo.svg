@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 110">
+
+  <!-- Building base -->
+  <rect x="30" y="35" width="200" height="45" rx="4"
+        fill="none" stroke="#002B5B" stroke-width="3" />
+
+  <!-- Roof -->
+  <path d="M25 35 L130 15 L235 35"
+        fill="none" stroke="#002B5B" stroke-width="3" />
+
+  <!-- Door -->
+  <rect x="120" y="45" width="20" height="35"
+        fill="#002B5B" stroke="#002B5B" stroke-width="2" />
+
+  <!-- Left windows -->
+  <rect x="45" y="43" width="15" height="12"
+        fill="none" stroke="#002B5B" stroke-width="2" />
+  <rect x="70" y="43" width="15" height="12"
+        fill="none" stroke="#002B5B" stroke-width="2" />
+  <rect x="95" y="43" width="15" height="12"
+        fill="none" stroke="#002B5B" stroke-width="2" />
+
+  <!-- Right windows -->
+  <rect x="150" y="43" width="15" height="12"
+        fill="none" stroke="#002B5B" stroke-width="2" />
+  <rect x="175" y="43" width="15" height="12"
+        fill="none" stroke="#002B5B" stroke-width="2" />
+  <rect x="200" y="43" width="15" height="12"
+        fill="none" stroke="#002B5B" stroke-width="2" />
+
+  <!-- Step -->
+  <line x1="118" y1="82" x2="142" y2="82"
+        stroke="#002B5B" stroke-width="2" />
+
+  <!-- Text: DEU -->
+  <text x="130" y="103"
+        text-anchor="middle"
+        font-family="Poppins, Arial, sans-serif"
+        font-size="20"
+        font-weight="700"
+        fill="#002B5B"
+        letter-spacing="4">
+    DEU
+  </text>
+
+</svg>
