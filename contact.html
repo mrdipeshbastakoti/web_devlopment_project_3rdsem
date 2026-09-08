@@ -1,1 +1,61 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact | Intelligence Computing</title><link rel="stylesheet" href="style.css"></head><body><header class="site-header"><a class="brand" href="index.html"><img src="deu-logo.svg" alt="Dong-Eui University"><span><b>Intelligence Computing</b><small>Dong-Eui University</small></span></a><nav><a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#faculty">Faculty</a><a href="index.html#program">Program</a><a href="news.html">News</a><a class="nav-cta" href="contact.html">Contact</a></nav></header><main><section class="page-hero"><div class="section-label light">CONTACT</div><h1>Start a conversation with our department.</h1><p>Questions about the program or university life? Use the information below to get in touch.</p></section><section class="section"><div class="contact-layout"><div class="contact-copy"><div class="section-label">GET IN TOUCH</div><h2>We'd be happy to hear from you.</h2><p>Contact the Department of Intelligence Computing for general program and department inquiries.</p><div class="contact-detail"><b>Department</b><p>Department of Intelligence Computing<br>Dong-Eui University</p></div><div class="contact-detail"><b>Address</b><p>176 Eomgwang-ro, Busanjin-gu<br>Busan, South Korea</p></div><div class="contact-detail"><b>Office hours</b><p>Monday – Friday · 09:00 – 17:00</p></div></div><form class="contact-form" onsubmit="event.preventDefault(); alert('This student project form is for demonstration only.');"><div class="field"><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required placeholder="Your name"></div><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div><div class="field"><label for="subject">Subject</label><input id="subject" name="subject" required placeholder="How can we help?"></div><div class="field"><label for="message">Message</label><textarea id="message" name="message" required placeholder="Write your message..."></textarea></div><button class="btn primary" type="submit">Send message →</button><p class="form-note">Demonstration form for this student web project. No message is transmitted.</p></form></div></section></main><footer><div class="footer-main"><div class="footer-brand"><img src="deu-logo.svg" alt="Dong-Eui University"><p>Department of Intelligence Computing<br>Dong-Eui University · Busan, South Korea</p></div><div><b>Explore</b><a href="index.html">Home</a><a href="index.html#faculty">Faculty</a><a href="index.html#program">Program</a></div><div><b>Information</b><a href="news.html">News & Events</a><a href="contact.html">Contact</a></div></div><div class="footer-bottom"><span>© 2026 Dong-Eui University · Intelligence Computing</span><span>Student web project by Saymon Md, Sagar Shrestha & Dipesh Bastakoti</span></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Intelligence Computing</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="index.html"><img src="deu-logo.svg" alt="Dong-Eui University logo"><span class="brand-text"><strong>Intelligence Computing</strong><small>Dong-Eui University</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#faculty">Faculty</a><a href="index.html#program">Program</a><a href="news.html">News</a><a class="nav-button" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="page-width">
+        <div><p class="kicker">CONTACT</p><h1>Get in touch with the department.</h1></div>
+        <p>Questions about the program or student life? Use the details below to contact the Department of Intelligence Computing.</p>
+      </div>
+    </section>
+
+    <section class="section page-width">
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <p class="kicker dark">DEPARTMENT INFORMATION</p>
+          <h2>We’re here to help.</h2>
+          <p>This page is part of a student web project. The form demonstrates a clean contact experience without sending data to a server.</p>
+          <div class="contact-detail"><b>Department</b><p>Department of Intelligence Computing<br>Dong-Eui University</p></div>
+          <div class="contact-detail"><b>Address</b><p>176 Eomgwang-ro, Busanjin-gu<br>Busan, South Korea</p></div>
+          <div class="contact-detail"><b>Office hours</b><p>Monday – Friday · 09:00 – 17:00</p></div>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('This is a demonstration form for the student project.');">
+          <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required></div>
+          <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+          <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to ask?" required></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Write your message here..." required></textarea></div>
+          <button class="button button-dark" type="submit">Send message</button>
+          <p class="form-note">Demo only — no information is transmitted or stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-grid">
+      <div class="footer-brand"><img src="deu-logo.svg" alt="Dong-Eui University logo"><p>Department of Intelligence Computing<br>Dong-Eui University · Busan, South Korea</p></div>
+      <div><h3>Explore</h3><a href="index.html#about">About</a><a href="index.html#faculty">Faculty</a><a href="index.html#program">Program</a></div>
+      <div><h3>More</h3><a href="news.html">News & Events</a><a href="contact.html">Contact</a></div>
+    </div>
+    <div class="page-width footer-bottom"><span>© 2026 Department of Intelligence Computing</span><span>Student project · Saymon Md, Sagar Shrestha & Dipesh Bastakoti</span></div>
+  </footer>
+</body>
+</html>
